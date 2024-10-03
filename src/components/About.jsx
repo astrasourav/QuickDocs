@@ -31,7 +31,7 @@ const About = () => {
           <div>
             <h3 className="font-bold text-xl mb-4">GET IN TOUCH</h3>
             <ul className="text-gray-600 space-y-2">
-              <li>+1-212-456-7890</li>
+              <li>+91-212-456-7890</li>
               <li>QuickDocs@gmail.com</li>
             </ul>
           </div>

@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h2 className="text-xl font-semibold mb-4">GET IN TOUCH</h2>
             <ul>
-              <li className="mb-2 text-gray-600">+1-212-456-7890</li>
+              <li className="mb-2 text-gray-600">+91-212-456-7890</li>
               <li className="mb-2 text-gray-600">QuickDocs@gmail.com</li>
             </ul>
           </div>
