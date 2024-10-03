@@ -47,28 +47,28 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
             {/* Speciality Item */}
             <div className="flex flex-col items-center">
-              <img src={gen_phy} alt="General Physician" className="mb-4"/>
+              <a href='#'><img src={gen_phy} alt="General Physician" className="mb-4"/></a>
               <p className="text-lg font-semibold">General Physician</p>
             </div>
             {/* Repeat for Other Specialities */}
             <div className="flex flex-col items-center">
-              <img src={gyno} alt="Gynecologist" className="mb-4"/>
+            <a href='#'><img src={gyno} alt="Gynecologist" className="mb-4"/></a>
               <p className="text-lg font-semibold">Gynecologist</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src={derma} alt="Dermatologist" className="mb-4"/>
+            <a href='#'><img src={derma} alt="Dermatologist" className="mb-4"/></a>
               <p className="text-lg font-semibold">Dermatologist</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src={pedra} alt="Pediatricians" className="mb-4"/>
+            <a href='#'><img src={pedra} alt="Pediatricians" className="mb-4"/></a>
               <p className="text-lg font-semibold">Pediatricians</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src={neuro} alt="Neurologist" className="mb-4"/>
-              <p className="text-lg font-semibold">Neurologist</p>
+            <a href='#'><img src={neuro} alt="Neurologist" className="mb-4"/></a>
+               <p className="text-lg font-semibold">Neurologist</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src={gastro} alt="Gastroenterologist" className="mb-4"/>
+            <a href='#'><img src={gastro} alt="Gastroenterologist" className="mb-4"/></a>
               <p className="text-lg font-semibold">Gastroenterologist</p>
             </div>
           </div>
