@@ -5,6 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Login from './components/Login'
+import Myprofile from './components/Myprofile'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/About' element={< About />} />
           <Route path='/Contact' element={< Contact />} />
           <Route path='/Login' element={<Login />} />
+          <Route path='/Myprofile' element={<Myprofile/>} />
         </Routes>
       </BrowserRouter>
     </div>
